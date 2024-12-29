@@ -30,7 +30,7 @@ public class ErrorValidation extends BaseTest{
 	{
 		landingPage.loginApplication("sandeepkumar123@gmail.com", "Sandy@0123");
 		//landingPage.geterrorMessage();
-		Assert.assertEquals("Incorrect email password.", landingPage.geterrorMessage());;
+		Assert.assertEquals("Incorrect email or password.", landingPage.geterrorMessage());;
 	}
 	
 	@Test
