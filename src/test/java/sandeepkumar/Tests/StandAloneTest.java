@@ -22,6 +22,7 @@ public class StandAloneTest {
 		
 		//Email -sandeepkumar123@gmail.com
 		//paswword -Sandy@123
+		//My name is sandeep
 		String productName = "ADIDAS ORIGINAL";
 		
 		WebDriverManager.chromedriver().setup();
